@@ -1,0 +1,46 @@
+PODS:
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - Differentiator (3.0.2)
+  - Kingfisher (4.7.0)
+  - LLCycleScrollView (1.4.8):
+    - Kingfisher
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+
+DEPENDENCIES:
+  - Charts
+  - Kingfisher (~> 4.7.0)
+  - LLCycleScrollView (~> 1.4.8)
+  - RxCocoa (~> 4.1.2)
+  - RxDataSources (~> 3.0.2)
+  - RxSwift (~> 4.1.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Charts
+    - Differentiator
+    - Kingfisher
+    - LLCycleScrollView
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  LLCycleScrollView: ba2f11e78a537cd3b36df58308822babbd41b202
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+
+PODFILE CHECKSUM: 92a1be5093545994c569982a932de546d820e28c
+
+COCOAPODS: 1.5.0
