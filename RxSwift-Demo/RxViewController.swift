@@ -9,7 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
-
+import Spring
 let kScreenW = UIScreen.main.bounds.width
 let kScreenH = UIScreen.main.bounds.height
 class RxViewController: UIViewController {
@@ -25,13 +25,32 @@ class RxViewController: UIViewController {
     //负责对象销毁
     let disposeBag = DisposeBag()
 
-    @IBOutlet weak var changeColorLab: UILabel!
+    @IBOutlet weak var numLab: UILabel!
     
+    @IBOutlet weak var myImageView: SpringImageView!
+    @IBOutlet weak var changeImgBtn: UIButton!
+    var isDeleteImageView = false
+    
+    @IBAction func changeImageView(_ sender: Any) {
+        if isDeleteImageView == false {
+//            myImageView.isHidden = true
+            isDeleteImageView = true
+            numLab.text = "+1"
+            myImageView.frame.size.height = 500
 
+        }else{
+//            myImageView.isHidden = false
+            isDeleteImageView = false
+            numLab.text = "0"
+            myImageView.frame.size.height = 300
+
+            
+        }
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
-        changeColorLab.backgroundColor = UIColor.blue
         // Do any additional setup after loading the view.
 //        let observable = Observable<Int>.just(5)
 //

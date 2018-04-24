@@ -11,6 +11,8 @@ pod 'RxCocoa', '~> 4.1.2'
   pod 'RxDataSources', '~> 3.0.2'
 pod 'LLCycleScrollView', '~> 1.4.8'
 
+pod 'Spring', '~> 1.0.5'
+
 pod 'Charts'
  # Pods for RxSwift-Demo
  

@@ -13,6 +13,7 @@ PODS:
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
+  - Spring (1.0.5)
 
 DEPENDENCIES:
   - Charts
@@ -21,6 +22,7 @@ DEPENDENCIES:
   - RxCocoa (~> 4.1.2)
   - RxDataSources (~> 3.0.2)
   - RxSwift (~> 4.1.2)
+  - Spring (~> 1.0.5)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -31,6 +33,7 @@ SPEC REPOS:
     - RxCocoa
     - RxDataSources
     - RxSwift
+    - Spring
 
 SPEC CHECKSUMS:
   Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
@@ -40,7 +43,8 @@ SPEC CHECKSUMS:
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxSwift: e49536837d9901277638493ea537394d4b55f570
+  Spring: 17901566c8ecf3a1327902b940406c64512f9bb1
 
-PODFILE CHECKSUM: 92a1be5093545994c569982a932de546d820e28c
+PODFILE CHECKSUM: 8609fa6d14aefd1c4297ab5714aad5c48146c249
 
 COCOAPODS: 1.5.0
