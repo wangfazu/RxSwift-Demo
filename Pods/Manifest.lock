@@ -6,6 +6,12 @@ PODS:
   - Kingfisher (4.7.0)
   - LLCycleScrollView (1.4.8):
     - Kingfisher
+  - NVActivityIndicatorView (4.2.0):
+    - NVActivityIndicatorView/Presenter (= 4.2.0)
+  - NVActivityIndicatorView/Presenter (4.2.0)
+  - RAMAnimatedTabBarController (3.1.0)
+  - RxBlocking (4.1.2):
+    - RxSwift (~> 4.0)
   - RxCocoa (4.1.2):
     - RxSwift (~> 4.0)
   - RxDataSources (3.0.2):
@@ -13,16 +19,23 @@ PODS:
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
   - Spring (1.0.5)
+  - StarWars (2.0)
 
 DEPENDENCIES:
   - Charts
   - Kingfisher (~> 4.7.0)
   - LLCycleScrollView (~> 1.4.8)
+  - NVActivityIndicatorView
+  - RAMAnimatedTabBarController
+  - RxBlocking (~> 4.1.2)
   - RxCocoa (~> 4.1.2)
   - RxDataSources (~> 3.0.2)
   - RxSwift (~> 4.1.2)
+  - SnapKit (~> 4.0.0)
   - Spring (~> 1.0.5)
+  - StarWars
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -30,21 +43,31 @@ SPEC REPOS:
     - Differentiator
     - Kingfisher
     - LLCycleScrollView
+    - NVActivityIndicatorView
+    - RAMAnimatedTabBarController
+    - RxBlocking
     - RxCocoa
     - RxDataSources
     - RxSwift
+    - SnapKit
     - Spring
+    - StarWars
 
 SPEC CHECKSUMS:
   Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
   Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
   Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
   LLCycleScrollView: ba2f11e78a537cd3b36df58308822babbd41b202
+  NVActivityIndicatorView: 75c9634073e03b31d7e2748cd2417feab1206195
+  RAMAnimatedTabBarController: 3c40472db54eda74d465583f8c7f571b206c54d6
+  RxBlocking: f6054985901412fc8c02daa84e92d4ba68c61389
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   Spring: 17901566c8ecf3a1327902b940406c64512f9bb1
+  StarWars: 3c68dc5e9f1b6ca6d407b1d4218fd8a65c2eacfa
 
-PODFILE CHECKSUM: 8609fa6d14aefd1c4297ab5714aad5c48146c249
+PODFILE CHECKSUM: dcc52611336e8c9da0e293336a4943578e9f7b74
 
 COCOAPODS: 1.5.0

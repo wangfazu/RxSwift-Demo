@@ -29,8 +29,8 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oPQ-P4-9JN" customClass="SpringImageView" customModule="Spring">
-                    <rect key="frame" x="20" y="-412" width="335" height="889"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oPQ-P4-9JN" customClass="SpringImageView" customModule="Spring">
+                    <rect key="frame" x="20" y="20" width="335" height="457"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="animation" value="squeezeDown"/>
                     </userDefinedRuntimeAttributes>

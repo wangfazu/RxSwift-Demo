@@ -14,10 +14,7 @@
 		970B93A7208DF8BB00376D69 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970B93A2208DF8B900376D69 /* 2.jpg */; };
 		970B93AC208DF90A00376D69 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970B93AA208DF90900376D69 /* 3.jpg */; };
 		970B93AD208DF90A00376D69 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970B93AB208DF90900376D69 /* 1.jpg */; };
-		971A3B19208F1D400044B101 /* tabelViewCtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971A3B17208F1D400044B101 /* tabelViewCtoller.swift */; };
-		971A3B1A208F1D400044B101 /* tabelViewCtoller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971A3B18208F1D400044B101 /* tabelViewCtoller.xib */; };
-		971A3B1D208F1EA40044B101 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971A3B1B208F1EA40044B101 /* News.swift */; };
-		971A3B1E208F1EA40044B101 /* News.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971A3B1C208F1EA40044B101 /* News.xib */; };
+		9724F7CD2094BE110059672C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9724F7CC2094BE110059672C /* SecondViewController.swift */; };
 		97514A88208B2D0A00553B47 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97514A87208B2D0A00553B47 /* Music.swift */; };
 		97514A8A208B2E6300553B47 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97514A89208B2E6300553B47 /* MusicListViewModel.swift */; };
 		97514A8D208B344F00553B47 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97514A8B208B344F00553B47 /* RxViewController.swift */; };
@@ -27,6 +24,11 @@
 		977D28ED208AEF6D0037426E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977D28EB208AEF6D0037426E /* Main.storyboard */; };
 		977D28EF208AEF720037426E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977D28EE208AEF720037426E /* Assets.xcassets */; };
 		977D28F2208AEF720037426E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977D28F0208AEF720037426E /* LaunchScreen.storyboard */; };
+		97D4286020959E13001ABBE7 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D4285E20959E13001ABBE7 /* MyTableViewController.swift */; };
+		97D4286120959E13001ABBE7 /* MyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D4285F20959E13001ABBE7 /* MyTableViewController.xib */; };
+		97FF4A852094647F00983844 /* FEDanmuSence.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4A802094647F00983844 /* FEDanmuSence.m */; };
+		97FF4A862094647F00983844 /* FEDanmuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4A822094647F00983844 /* FEDanmuItem.m */; };
+		97FF4A872094647F00983844 /* FEDanmuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4A832094647F00983844 /* FEDanmuItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,10 +41,7 @@
 		970B93A2208DF8B900376D69 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		970B93AA208DF90900376D69 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		970B93AB208DF90900376D69 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		971A3B17208F1D400044B101 /* tabelViewCtoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabelViewCtoller.swift; sourceTree = "<group>"; };
-		971A3B18208F1D400044B101 /* tabelViewCtoller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tabelViewCtoller.xib; sourceTree = "<group>"; };
-		971A3B1B208F1EA40044B101 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
-		971A3B1C208F1EA40044B101 /* News.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = News.xib; sourceTree = "<group>"; };
+		9724F7CC2094BE110059672C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		97514A87208B2D0A00553B47 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		97514A89208B2E6300553B47 /* MusicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
 		97514A8B208B344F00553B47 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +53,16 @@
 		977D28EE208AEF720037426E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		977D28F1208AEF720037426E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		977D28F3208AEF720037426E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D4285E20959E13001ABBE7 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		97D4285F20959E13001ABBE7 /* MyTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewController.xib; sourceTree = "<group>"; };
+		97FF4A7E2094647F00983844 /* FEDanmuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDanmuItem.h; sourceTree = "<group>"; };
+		97FF4A7F2094647F00983844 /* FEDanmuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDanmuView.h; sourceTree = "<group>"; };
+		97FF4A802094647F00983844 /* FEDanmuSence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEDanmuSence.m; sourceTree = "<group>"; };
+		97FF4A812094647F00983844 /* FEDanmuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDanmuItemView.h; sourceTree = "<group>"; };
+		97FF4A822094647F00983844 /* FEDanmuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEDanmuItem.m; sourceTree = "<group>"; };
+		97FF4A832094647F00983844 /* FEDanmuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEDanmuItemView.m; sourceTree = "<group>"; };
+		97FF4A842094647F00983844 /* FEDanmuSence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDanmuSence.h; sourceTree = "<group>"; };
+		97FF4A902094663100983844 /* Bridge+Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge+Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		976B7B9E209754490006ADD0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				970B93A0208DF8B800376D69 /* 0.jpg */,
+				970B93AB208DF90900376D69 /* 1.jpg */,
+				970B93A2208DF8B900376D69 /* 2.jpg */,
+				970B93AA208DF90900376D69 /* 3.jpg */,
+				970B93A1208DF8B800376D69 /* 4.jpg */,
+				97514A87208B2D0A00553B47 /* Music.swift */,
+				97514A89208B2E6300553B47 /* MusicListViewModel.swift */,
+				977D28E9208AEF6D0037426E /* ViewController.swift */,
+				9724F7CC2094BE110059672C /* SecondViewController.swift */,
+				97D4285E20959E13001ABBE7 /* MyTableViewController.swift */,
+				97D4285F20959E13001ABBE7 /* MyTableViewController.xib */,
+				970B786F208DE2F1007B7649 /* bg_magic.jpg */,
+				977D28EB208AEF6D0037426E /* Main.storyboard */,
+				977D28EE208AEF720037426E /* Assets.xcassets */,
+				977D28F0208AEF720037426E /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		977D28DB208AEF6D0037426E = {
 			isa = PBXGroup;
 			children = (
@@ -106,28 +137,37 @@
 		977D28E6208AEF6D0037426E /* RxSwift-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				970B93A0208DF8B800376D69 /* 0.jpg */,
-				970B93AB208DF90900376D69 /* 1.jpg */,
-				970B93A2208DF8B900376D69 /* 2.jpg */,
-				970B93AA208DF90900376D69 /* 3.jpg */,
-				970B93A1208DF8B800376D69 /* 4.jpg */,
 				977D28E7208AEF6D0037426E /* AppDelegate.swift */,
-				97514A87208B2D0A00553B47 /* Music.swift */,
-				97514A89208B2E6300553B47 /* MusicListViewModel.swift */,
-				977D28E9208AEF6D0037426E /* ViewController.swift */,
 				97514A8B208B344F00553B47 /* RxViewController.swift */,
-				971A3B17208F1D400044B101 /* tabelViewCtoller.swift */,
-				971A3B18208F1D400044B101 /* tabelViewCtoller.xib */,
-				971A3B1B208F1EA40044B101 /* News.swift */,
-				971A3B1C208F1EA40044B101 /* News.xib */,
-				970B786F208DE2F1007B7649 /* bg_magic.jpg */,
 				97514A8C208B344F00553B47 /* RxViewController.xib */,
-				977D28EB208AEF6D0037426E /* Main.storyboard */,
-				977D28EE208AEF720037426E /* Assets.xcassets */,
-				977D28F0208AEF720037426E /* LaunchScreen.storyboard */,
 				977D28F3208AEF720037426E /* Info.plist */,
+				976B7B9E209754490006ADD0 /* Other */,
+				97FF4A7C2094646D00983844 /* dan'mu */,
 			);
 			path = "RxSwift-Demo";
+			sourceTree = "<group>";
+		};
+		97FF4A7C2094646D00983844 /* dan'mu */ = {
+			isa = PBXGroup;
+			children = (
+				97FF4A7D2094647F00983844 /* FEDanmuView */,
+				97FF4A902094663100983844 /* Bridge+Header.h */,
+			);
+			path = "dan'mu";
+			sourceTree = "<group>";
+		};
+		97FF4A7D2094647F00983844 /* FEDanmuView */ = {
+			isa = PBXGroup;
+			children = (
+				97FF4A7E2094647F00983844 /* FEDanmuItem.h */,
+				97FF4A7F2094647F00983844 /* FEDanmuView.h */,
+				97FF4A802094647F00983844 /* FEDanmuSence.m */,
+				97FF4A812094647F00983844 /* FEDanmuItemView.h */,
+				97FF4A822094647F00983844 /* FEDanmuItem.m */,
+				97FF4A832094647F00983844 /* FEDanmuItemView.m */,
+				97FF4A842094647F00983844 /* FEDanmuSence.h */,
+			);
+			path = FEDanmuView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,9 +238,8 @@
 				97514A8E208B344F00553B47 /* RxViewController.xib in Resources */,
 				970B7870208DE2F1007B7649 /* bg_magic.jpg in Resources */,
 				970B93A7208DF8BB00376D69 /* 2.jpg in Resources */,
-				971A3B1A208F1D400044B101 /* tabelViewCtoller.xib in Resources */,
 				977D28ED208AEF6D0037426E /* Main.storyboard in Resources */,
-				971A3B1E208F1EA40044B101 /* News.xib in Resources */,
+				97D4286120959E13001ABBE7 /* MyTableViewController.xib in Resources */,
 				970B93AD208DF90A00376D69 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,10 +276,15 @@
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/LLCycleScrollView/LLCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/StarWars/StarWars.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -248,10 +292,15 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarWars.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -265,13 +314,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9724F7CD2094BE110059672C /* SecondViewController.swift in Sources */,
+				97FF4A872094647F00983844 /* FEDanmuItemView.m in Sources */,
 				97514A8A208B2E6300553B47 /* MusicListViewModel.swift in Sources */,
 				977D28EA208AEF6D0037426E /* ViewController.swift in Sources */,
 				977D28E8208AEF6D0037426E /* AppDelegate.swift in Sources */,
 				97514A88208B2D0A00553B47 /* Music.swift in Sources */,
-				971A3B1D208F1EA40044B101 /* News.swift in Sources */,
+				97D4286020959E13001ABBE7 /* MyTableViewController.swift in Sources */,
 				97514A8D208B344F00553B47 /* RxViewController.swift in Sources */,
-				971A3B19208F1D400044B101 /* tabelViewCtoller.swift in Sources */,
+				97FF4A862094647F00983844 /* FEDanmuItem.m in Sources */,
+				97FF4A852094647F00983844 /* FEDanmuSence.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,16 +468,15 @@
 			baseConfigurationReference = 898A84CA7FC56FB42C618C06 /* Pods-RxSwift-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J7XRPA7AU;
 				INFOPLIST_FILE = "RxSwift-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mapollo.RxSwift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -436,16 +487,15 @@
 			baseConfigurationReference = 7CE4969B50BB41D95D081DE6 /* Pods-RxSwift-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J7XRPA7AU;
 				INFOPLIST_FILE = "RxSwift-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mapollo.RxSwift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
