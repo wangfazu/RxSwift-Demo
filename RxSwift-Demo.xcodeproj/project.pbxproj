@@ -25,6 +25,7 @@
 		977D28EF208AEF720037426E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977D28EE208AEF720037426E /* Assets.xcassets */; };
 		977D28F2208AEF720037426E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977D28F0208AEF720037426E /* LaunchScreen.storyboard */; };
 		9784EE5E20ABF85C00DD1DB4 /* Protocol_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784EE5D20ABF85C00DD1DB4 /* Protocol_test.swift */; };
+		9784EE6020ABFF1700DD1DB4 /* Clorse_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784EE5F20ABFF1700DD1DB4 /* Clorse_ViewController.swift */; };
 		97C833CA20A2E81D00381F54 /* RxForChineseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C833C820A2E81D00381F54 /* RxForChineseViewController.swift */; };
 		97C833CB20A2E81D00381F54 /* RxForChineseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C833C920A2E81D00381F54 /* RxForChineseViewController.xib */; };
 		97D4286020959E13001ABBE7 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D4285E20959E13001ABBE7 /* MyTableViewController.swift */; };
@@ -59,6 +60,7 @@
 		977D28F1208AEF720037426E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		977D28F3208AEF720037426E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9784EE5D20ABF85C00DD1DB4 /* Protocol_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_test.swift; sourceTree = "<group>"; };
+		9784EE5F20ABFF1700DD1DB4 /* Clorse_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clorse_ViewController.swift; sourceTree = "<group>"; };
 		97C833C820A2E81D00381F54 /* RxForChineseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxForChineseViewController.swift; sourceTree = "<group>"; };
 		97C833C920A2E81D00381F54 /* RxForChineseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxForChineseViewController.xib; sourceTree = "<group>"; };
 		97D4285E20959E13001ABBE7 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				97E7584B20A4A004009A7EF2 /* TvViewController.swift */,
 				97E7584D20A4B3CF009A7EF2 /* Moya_me.swift */,
 				9784EE5D20ABF85C00DD1DB4 /* Protocol_test.swift */,
+				9784EE5F20ABFF1700DD1DB4 /* Clorse_ViewController.swift */,
 				977D28F3208AEF720037426E /* Info.plist */,
 				976B7B9E209754490006ADD0 /* Other */,
 				97FF4A7C2094646D00983844 /* dan'mu */,
@@ -341,6 +344,7 @@
 				9724F7CD2094BE110059672C /* SecondViewController.swift in Sources */,
 				97FF4A872094647F00983844 /* FEDanmuItemView.m in Sources */,
 				97E7584C20A4A004009A7EF2 /* TvViewController.swift in Sources */,
+				9784EE6020ABFF1700DD1DB4 /* Clorse_ViewController.swift in Sources */,
 				97514A8A208B2E6300553B47 /* MusicListViewModel.swift in Sources */,
 				97E7584E20A4B3CF009A7EF2 /* Moya_me.swift in Sources */,
 				97C833CA20A2E81D00381F54 /* RxForChineseViewController.swift in Sources */,

@@ -16,7 +16,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-        self.window?.rootViewController = UINavigationController(rootViewController: TvViewController())
+        let tabBar = UITabBarController()
+        let rxViewC = RxViewController()
+//        let rxChinese = RxForChineseViewController()
+        let tvViewC = TvViewController()
+        let clorseVC = Clorse_ViewController()
+        
+        tabBar.addChildViewController(rxViewC)
+//        tabBar.addChildViewController(rxChinese)
+        tabBar.addChildViewController(tvViewC)
+        tabBar.addChildViewController(clorseVC)
+
+        //
+        rxViewC.tabBarItem.title  = "rx"
+        tvViewC.tabBarItem.title = "豆瓣"
+        clorseVC.tabBarItem.title = "闭包"
+        
+        
+        
+        
+        self.window?.rootViewController = UINavigationController(rootViewController:tabBar)
 //         Override point for customization after application launch.
         return true
     }
