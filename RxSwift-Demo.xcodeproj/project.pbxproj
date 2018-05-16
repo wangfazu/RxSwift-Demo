@@ -24,8 +24,13 @@
 		977D28ED208AEF6D0037426E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977D28EB208AEF6D0037426E /* Main.storyboard */; };
 		977D28EF208AEF720037426E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977D28EE208AEF720037426E /* Assets.xcassets */; };
 		977D28F2208AEF720037426E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977D28F0208AEF720037426E /* LaunchScreen.storyboard */; };
+		9784EE5E20ABF85C00DD1DB4 /* Protocol_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784EE5D20ABF85C00DD1DB4 /* Protocol_test.swift */; };
+		97C833CA20A2E81D00381F54 /* RxForChineseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C833C820A2E81D00381F54 /* RxForChineseViewController.swift */; };
+		97C833CB20A2E81D00381F54 /* RxForChineseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C833C920A2E81D00381F54 /* RxForChineseViewController.xib */; };
 		97D4286020959E13001ABBE7 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D4285E20959E13001ABBE7 /* MyTableViewController.swift */; };
 		97D4286120959E13001ABBE7 /* MyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D4285F20959E13001ABBE7 /* MyTableViewController.xib */; };
+		97E7584C20A4A004009A7EF2 /* TvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7584B20A4A004009A7EF2 /* TvViewController.swift */; };
+		97E7584E20A4B3CF009A7EF2 /* Moya_me.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7584D20A4B3CF009A7EF2 /* Moya_me.swift */; };
 		97FF4A852094647F00983844 /* FEDanmuSence.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4A802094647F00983844 /* FEDanmuSence.m */; };
 		97FF4A862094647F00983844 /* FEDanmuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4A822094647F00983844 /* FEDanmuItem.m */; };
 		97FF4A872094647F00983844 /* FEDanmuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4A832094647F00983844 /* FEDanmuItemView.m */; };
@@ -53,8 +58,13 @@
 		977D28EE208AEF720037426E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		977D28F1208AEF720037426E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		977D28F3208AEF720037426E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9784EE5D20ABF85C00DD1DB4 /* Protocol_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_test.swift; sourceTree = "<group>"; };
+		97C833C820A2E81D00381F54 /* RxForChineseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxForChineseViewController.swift; sourceTree = "<group>"; };
+		97C833C920A2E81D00381F54 /* RxForChineseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxForChineseViewController.xib; sourceTree = "<group>"; };
 		97D4285E20959E13001ABBE7 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		97D4285F20959E13001ABBE7 /* MyTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewController.xib; sourceTree = "<group>"; };
+		97E7584B20A4A004009A7EF2 /* TvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvViewController.swift; sourceTree = "<group>"; };
+		97E7584D20A4B3CF009A7EF2 /* Moya_me.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moya_me.swift; sourceTree = "<group>"; };
 		97FF4A7E2094647F00983844 /* FEDanmuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDanmuItem.h; sourceTree = "<group>"; };
 		97FF4A7F2094647F00983844 /* FEDanmuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDanmuView.h; sourceTree = "<group>"; };
 		97FF4A802094647F00983844 /* FEDanmuSence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEDanmuSence.m; sourceTree = "<group>"; };
@@ -140,6 +150,11 @@
 				977D28E7208AEF6D0037426E /* AppDelegate.swift */,
 				97514A8B208B344F00553B47 /* RxViewController.swift */,
 				97514A8C208B344F00553B47 /* RxViewController.xib */,
+				97C833C820A2E81D00381F54 /* RxForChineseViewController.swift */,
+				97C833C920A2E81D00381F54 /* RxForChineseViewController.xib */,
+				97E7584B20A4A004009A7EF2 /* TvViewController.swift */,
+				97E7584D20A4B3CF009A7EF2 /* Moya_me.swift */,
+				9784EE5D20ABF85C00DD1DB4 /* Protocol_test.swift */,
 				977D28F3208AEF720037426E /* Info.plist */,
 				976B7B9E209754490006ADD0 /* Other */,
 				97FF4A7C2094646D00983844 /* dan'mu */,
@@ -236,6 +251,7 @@
 				977D28F2208AEF720037426E /* LaunchScreen.storyboard in Resources */,
 				977D28EF208AEF720037426E /* Assets.xcassets in Resources */,
 				97514A8E208B344F00553B47 /* RxViewController.xib in Resources */,
+				97C833CB20A2E81D00381F54 /* RxForChineseViewController.xib in Resources */,
 				970B7870208DE2F1007B7649 /* bg_magic.jpg in Resources */,
 				970B93A7208DF8BB00376D69 /* 2.jpg in Resources */,
 				977D28ED208AEF6D0037426E /* Main.storyboard in Resources */,
@@ -272,12 +288,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift-Demo/Pods-RxSwift-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/LLCycleScrollView/LLCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
@@ -285,15 +304,19 @@
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 				"${BUILT_PRODUCTS_DIR}/StarWars/StarWars.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
@@ -301,6 +324,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarWars.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -316,8 +340,12 @@
 			files = (
 				9724F7CD2094BE110059672C /* SecondViewController.swift in Sources */,
 				97FF4A872094647F00983844 /* FEDanmuItemView.m in Sources */,
+				97E7584C20A4A004009A7EF2 /* TvViewController.swift in Sources */,
 				97514A8A208B2E6300553B47 /* MusicListViewModel.swift in Sources */,
+				97E7584E20A4B3CF009A7EF2 /* Moya_me.swift in Sources */,
+				97C833CA20A2E81D00381F54 /* RxForChineseViewController.swift in Sources */,
 				977D28EA208AEF6D0037426E /* ViewController.swift in Sources */,
+				9784EE5E20ABF85C00DD1DB4 /* Protocol_test.swift in Sources */,
 				977D28E8208AEF6D0037426E /* AppDelegate.swift in Sources */,
 				97514A88208B2D0A00553B47 /* Music.swift in Sources */,
 				97D4286020959E13001ABBE7 /* MyTableViewController.swift in Sources */,
@@ -473,7 +501,10 @@
 				DEVELOPMENT_TEAM = 8J7XRPA7AU;
 				INFOPLIST_FILE = "RxSwift-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mapollo.RxSwift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -492,7 +523,10 @@
 				DEVELOPMENT_TEAM = 8J7XRPA7AU;
 				INFOPLIST_FILE = "RxSwift-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mapollo.RxSwift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

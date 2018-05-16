@@ -14,6 +14,7 @@ import StarWars
 import NVActivityIndicatorView
 let kScreenW = UIScreen.main.bounds.width
 let kScreenH = UIScreen.main.bounds.height
+
 class RxViewController: UIViewController,UIViewControllerTransitioningDelegate{
 
 
